@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="utsArray.css">
+</head>
+<body>
+  <div class="tw">
+    <a href="utsBiodata.html">
+      <button class="slider-button slider-button-prev" onclick="prevSlide()">&#8250;</button>
+      </a>
+      <a href="utsinilaimhs.html">
+        <button class="slider-button slider-button-prey" onclick="prevSlide()">&#8249;</button>
+        </a>
+  </div>
+  <h1 style=text-align:center;> 
+    Data Mahasiswa</h1> 
+
+  <table id="data-table" align="center">
+    <tr>
+      <th>Nama Mhs</th>
+      <th>Tahun Lahir</th>
+      <th>Handphone</th>
+      <th>Action</th>
+    </tr>
+  </table>
+
+  <div class="container">
+    <div class="tamtd">
+    <label for="nama">Nama Mhs:</label>
+    <input type="text" id="nama">
+    <br>
+    <label for="tahun-lahir">Tahun Lahir:</label>
+    <input type="number" id="tahun-lahir">
+    <br>
+    <label for="handphone">Handphone:</label>
+    <input type="text" id="handphone">
+    <br>
+    <div class="button-container">
+      <button  onclick="tambahData()">Tambah Data</button>
+      <button class="btn-delete" onclick="hapusData()">Hapus Data</button>
+    </div>
+</div>
+<script src="utsarray.js"></script>
+</body>
+</html>

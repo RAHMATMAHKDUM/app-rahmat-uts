@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background:url(bacground.jpg);
+  background-size: contain;
+  
+}
+
+.container {
+  max-width: 570px;
+  margin: 0 auto;
+  background-color: rgb(175, 208, 254);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-in-out;
+  box-shadow: 8px 0 40px rgb(7, 4, 4);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333; 
+}
+
+input,
+select {
+  width: 91%;
+  padding: 7px;
+  border: 2px solid #ccc;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+select {
+  width: 94%;
+  padding: 7px;
+  border: 2px solid #ccc;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 49%;
+  padding: 10px;
+  background-color: #4e69ff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  
+  
+}
+
+
+button:hover {
+  background-color: #3e3efc;
+}
+
+.output-container {
+  margin-top: 20px;
+  animation: slideIn 0.5s ease-in-out;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f9f9f9;
+}
+
+.output-label {
+  font-weight: bold;
+}
+
+.output-index {
+  font-weight: bold;
+  color: #333;
+}
+
+.slider-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: #281717;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 25px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+
+}
+.slider-button-prev {
+  left: 1000px;
+ 
+}
+
+
