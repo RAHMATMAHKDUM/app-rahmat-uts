@@ -2,7 +2,7 @@ function hitungIPK() {
     var nim = document.getElementById("nim").value;
     var nama = document.getElementById("nama").value;
     var mataKuliah = document.getElementById("mataKuliah").value;
-    var nilai = document.getElementById("nilai").valu
+    var nilai = document.getElementById("nilai").value;
     var grade;
     var indeksNilai;
 if (nilai >= 85 && nilai <=100) {
@@ -43,7 +43,7 @@ document.getElementById("outputNama").innerText = nama;
 document.getElementById("outputMataKuliah").innerText = mataKuliah;
 document.getElementById("outputNilai").innerText = nilai;
 document.getElementById("outputGrade").innerText = grade;
-document.getElementById("outputIndeksNilai").innerText = indeksNila
+document.getElementById("outputIndeksNilai").innerText = indeksNilai;
 document.getElementById("output").style.display = "block";
     }
 function resetForm() { 
