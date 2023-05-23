@@ -1,6 +1,6 @@
 var NamaMhs = ["Rahmat", "Zaka", "Teguh"];
-var TahunLahir = [1995, 1998, 2000];
-var HandphoneMhs = ["08123456789", "08765432100", "08987654321"];
+var TahunLahir = [2009, 2001, 2002];
+var HandphoneMhs = ["083843904502", "08765432100", "08987654321"];
 var table = document.getElementById("data-table");
 
 function tambahData() {
