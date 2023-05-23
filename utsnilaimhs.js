@@ -47,5 +47,4 @@ document.getElementById("output");
     }
 function resetForm() { 
     document.getElementById("ipkForm").reset();
-    document.getElementById("output");
 }
